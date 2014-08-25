@@ -16,7 +16,8 @@
 - Invite friend to task
 - Challenge statictics
 - Bonus points:
-  * Set privacy to task ( public/private (only invitted can join))
+  * Sign up/ login with Facebook
+  * Set privacy to chanllenge ( public/private (only invitted can join))
   * Ajax
   * Nice template/ layout
   * Deploy your app to heroku or any servers
