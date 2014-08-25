@@ -1,48 +1,36 @@
-Thirtydayschallenge
-================
+30 days Challenge
+=================
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+- after clone code from repos, each team should create a new branch from master branch `git checkout -b <team_name> master`
+- run `rake db:create`
+- run `rake db:migrate`
+- run `rails server`
 
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
+## Features:
 
-Problems? Issues?
------------
+- Account creation
+- Login
+- Todo list creation
+- Add tasks
+- Invite friend to task
+- Challenge statictics
+- Bonus points:
+    * Set privacy to task ( public/private (only invitted can join))
+    * Ajax
+    * Nice template/ layout
+    * Deploy your app to heroku or any servers
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+## Notes:
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
+- Database postgreSQL (but you can use any other one you like, e.g Mysql, )
+- Login: Use gem devise
+- Push you code to github before 03/09/2014 12:00 AM
 
-If the application doesn’t work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
+## References & Documents:
 
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.1.1
-- Rails 4.1.4
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+- Generate rails app  [Rails-composer](https://github.com/RailsApps/rails-composer)
+- Authenticate `gem devise`  [devise](https://github.com/plataformatec/devise)
+- Authorization `gem pundit`[pundit](https://github.com/elabs/pundit)
+- [Bootstrap 3.0.0](http://getbootstrap.com/)
+- Form builder `gem simpleform` [simpleform](https://github.com/plataformatec/simple_form)
+- [Coffee Script](http://coffeescript.org/)
