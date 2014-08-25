@@ -1,6 +1,7 @@
 30 days Challenge
 =================
 
+- ![Mockup](./public/30dayschallenge.png)
 - after clone code from repos, each team should create a new branch from master branch `git checkout -b <team_name> master`
 - run `rake db:create`
 - run `rake db:migrate`
